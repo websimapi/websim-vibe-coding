@@ -138,11 +138,13 @@ function App() {
                                     <CodeEditor 
                                         project={currentProject}
                                         room={roomRef.current}
+                                        projectId={currentProject?.id}
                                     />
                                 ) : (
                                     <BlocklyEditor 
                                         project={currentProject}
                                         room={roomRef.current}
+                                        projectId={currentProject?.id}
                                     />
                                 )}
                             </div>
@@ -293,4 +295,3 @@ function ProjectGallery({ room, onProjectSelect, onCreateNew }) {
 
 // Render the React app
 ReactDOM.createRoot(document.getElementById('app')).render(<App />);
-
