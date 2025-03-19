@@ -1,3 +1,4 @@
+import React from 'react';
 const { useState, useEffect } = React;
 
 export default function Collaboration({ room, project, isOpen, onToggle }) {
@@ -165,4 +166,3 @@ export default function Collaboration({ room, project, isOpen, onToggle }) {
         </div>
     );
 }
-

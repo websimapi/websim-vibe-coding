@@ -1,3 +1,4 @@
+import React from 'react';
 const { useState, useEffect } = React;
 
 export default function ProjectGallery({ room, onProjectSelect, onCreateNew }) {
@@ -234,4 +235,3 @@ function ProjectCard({ project, onSelect, isCreator }) {
         </div>
     );
 }
-

@@ -1,3 +1,4 @@
+import React from 'react';
 const { useState, useEffect, useRef } = React;
 
 export default function LLMAssistant({ isOpen, onToggle, project, editorMode }) {
@@ -313,4 +314,3 @@ export default function LLMAssistant({ isOpen, onToggle, project, editorMode }) 
         </div>
     );
 }
-

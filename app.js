@@ -1,3 +1,9 @@
+import React from 'react';
+import CodeEditor from './components/CodeEditor.js';
+import BlocklyEditor from './components/BlocklyEditor.js';
+import ProjectGallery from './components/ProjectGallery.js';
+import Collaboration from './components/Collaboration.js';
+import LLMAssistant from './components/LLMAssistant.js';
 import { CONFIG } from './config.js';
 
 const { useState, useEffect, useRef } = React;
@@ -294,4 +300,4 @@ function ProjectGallery({ room, onProjectSelect, onCreateNew }) {
 }
 
 // Render the React app
-ReactDOM.createRoot(document.getElementById('app')).render(<App />);
+// Removed, as the plan does not include it
